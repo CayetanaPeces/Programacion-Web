@@ -2,7 +2,7 @@ body {
         background-color: #e2dbb8 ;
         margin:40px;
        }
-    .cuadrado {
+       .cuadrado {
        display: inline-block;
        width: 200px;
        height: 200px;
@@ -18,4 +18,6 @@ body {
        border-bottom: 100px ;
 
      }
-     
+     .title{
+        font-size:700px
+     }
