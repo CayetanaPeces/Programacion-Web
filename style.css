@@ -8,8 +8,15 @@ body {
        height: 200px;
        background-color: rgb(246, 245, 233);
        margin: 10px;
-       cursor: pointer;
        border: 1px solid black;
+     }
+     .summary{
+        cursor: pointer;
+        margin:10px 0;
+     }
+     .details p{
+        margin: 10px 0;
+
      }
      .title{
         font-size:700px;
@@ -17,6 +24,7 @@ body {
         text-align: left;
         background-color:rgb(255, 255, 255)
      }
+
      .image{
         width: 75px;
         height: 75px;
