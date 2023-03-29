@@ -17,6 +17,7 @@ body {
      }
      .details p{
         margin: 10px 0;
+        word-wrap: break-word;
 
      }
      .title{
@@ -25,11 +26,3 @@ body {
         text-align: center;
         background-color:rgb(238, 238, 238)
      }
-
-     .image{
-        width: 75px;
-        height: 75px;
-        display: flex;
-        align-items: right;
-     }
-     
