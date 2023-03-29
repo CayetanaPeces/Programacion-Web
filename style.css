@@ -13,6 +13,8 @@ body {
      .summary{
         cursor: pointer;
         margin:10px 0;
+        align-items: center;
+        font-size: 100px;
      }
      .details p{
         margin: 10px 0;
@@ -22,7 +24,7 @@ body {
         font-size:700px;
         padding:20px;
         text-align: left;
-        background-color:rgb(255, 255, 255)
+        background-color:rgb(194, 194, 194)
      }
 
      .image{
