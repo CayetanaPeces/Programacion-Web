@@ -3,7 +3,7 @@ body {
         margin:40px;
        }
      .cuadrado {
-       display: flex;
+       display: inline-block;
        width: 200px;
        height: 200px;
        background-color: rgb(246, 245, 233);
