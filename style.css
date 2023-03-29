@@ -14,11 +14,6 @@ body {
        align-items: center;
        border: 1px solid black;
      }
-     .contenido {
-        font-size: 24px;
-        color: blue;
-
-     }
      .title{
         font-size:700px;
         padding:20px;
