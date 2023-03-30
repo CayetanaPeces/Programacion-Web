@@ -34,7 +34,6 @@ body {
         list-style-type: circle;
         font-size: 25px;
      }
-     .one:link {color:#ff0000;}
      .one:visited {color:#030303;}
      .one:hover {color:#928152;}
      .one{
