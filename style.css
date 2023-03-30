@@ -32,15 +32,14 @@ body {
      }
      .cursosBaristas{
         list-style-type: circle;
-        font-size: 25px;
      }
-     .one:link{color:#030303} #acatengoquecorregir
+     .one:link{color:#030303}
      .one:visited {color:#030303;}
      .one:hover {color:#928152;}
      .one{
         padding: 10px;
         list-style-type: circle;
-        font-size: 15px;
-        
+        font-size: 25px;
+
      }
      
