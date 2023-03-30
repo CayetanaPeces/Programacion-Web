@@ -3,17 +3,18 @@ body {
         margin:40px;
        }
      .cuadrado {
-       display: inline-block;
-       width: 200px;
-       height: 200px;
+       display: flex;
+       width: auto;
+       height: auto;
        background-color: rgb(246, 245, 233);
        border: 1px solid black;
      }
      .summary{
         cursor: pointer;
         margin:10px 0;
-        align-items: center;
-        font-size: 100px;
+        padding:auto;
+        font-size:50px
+
      }
      .details p{
         margin: 10px 0;
@@ -21,8 +22,22 @@ body {
 
      }
      .title{
-        font-size:200px;
-        padding:20px;
-        text-align: center;
-        background-color:rgb(238, 238, 238)
+        background-color: rgb(255, 255, 255);
+        font-size:100px;
      }
+     .image{
+       float:right;
+       height: 100px;
+       width: 100px;
+     }
+     .cursosBaristas{
+        list-style-type: circle;
+        font-size: 25px;
+     }
+     .one:link {color:#ff0000;}
+     .one:visited {color:#030303;}
+     .one:hover {color:#928152;}
+     .one{
+        padding: 10px;
+     }
+     
