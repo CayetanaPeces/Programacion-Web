@@ -33,6 +33,10 @@ body {
        height: 50px;
        width: 50px;
      }
+     .image_table{
+        height: 10px;
+        width: 10px;
+     }
      .cursosBaristas{
         list-style-type: circle;
      }
@@ -50,4 +54,8 @@ body {
         display: table;
         background-color: rgb(255, 255, 255);
       }
+     .text_table{
+        text-align: justify;
+        font-size: 20px;
+     }
      
