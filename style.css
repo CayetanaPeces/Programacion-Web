@@ -24,11 +24,14 @@ body {
      .title{
         background-color: rgb(255, 255, 255);
         font-size:100px;
+        display: inline;
+        text-align: left;
      }
      .image{
+       margin-right:50px ;
        float:right;
-       height: 100px;
-       width: 100px;
+       height: 50px;
+       width: 50px;
      }
      .cursosBaristas{
         list-style-type: circle;
@@ -40,6 +43,11 @@ body {
         padding: 10px;
         list-style-type: circle;
         font-size: 25px;
-
      }
+     .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+        background-color: rgb(255, 255, 255);
+      }
      
