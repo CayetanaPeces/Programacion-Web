@@ -1,46 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Caffeine&Co</title>
-   <link rel="shortcut icon" href="https://i.postimg.cc/d121834C/fotocomprimida-copy.jpeg" type="image/x-icon"> 
-   <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gloock&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caffeine&Co</title>
+    <link rel="shortcut icon" href="https://i.postimg.cc/d121834C/fotocomprimida-copy.jpeg" type="image/x-icon"> 
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="clearfix">
-        <h1 class="title";>Caffeine & Co.</h1> 
-        <a class="image" href="https://postimg.cc/PLmxLsps" target="_blank"><img src="https://i.postimg.cc/PLmxLsps/fotocomprimida.jpg"  alt='fotocomprimida' width="100" height="115"/></a></img>
-    </header>
+    <header class="header">
+        <a href='https://postimg.cc/nMkH412t' target='_blank'><img src='https://i.postimg.cc/nMkH412t/Caffeine-Co-Final.jpg' alt='Caffeine-Co-Final' width="100%" height=200/></a>
+    </header><br>
+    <form class="divForm">
+        <div class="form-group">
+            <label for="nombre">Nombre y Apellido:</label><br>
+            <input type="text" class="form-control" id="nombre" name="nombre"  placeholder="Ingrese su nombre y apellido..."required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email:</label><br>
+            <input type="email" class="form-control" id="email" name="email"  placeholder="Ingrese su mail..." required>
+        </div>
+        <button type="submit" class="submit">Enviar</button>
+    </form><br>
     <h2> <em>Bienvenidos a la red social para los amantes del café! La idea es compartirnos datos de los difrentes cafés en la gran Ciudad :)</em></h2>
     <h2> A continuacion veran las diferentes comunas de la ciudad, haciendo click veran los cafés recomemdados de cada uno de ellos!</h2>
     <div class="cuadrado">
        <details>
-            <summary class="summary">Palermo</summary>
+            <summary class="barrios">Palermo</summary>
             <p>
                 <ul class="cursosBaristas"> 
-                    <li><a class="one" href="#LasFlores">Las Flores: te encontras en un espacio verde, un café y comida sin glúten!</a></li>
-                    <li><a class="one" href="#VhsCafé">Vhs Café: un cafecito de especialidad dentro de un Videoclub para disfrutar de lo retro y comer cosas ricas</a></li>
-                    <li><a class="one" href="#ViveCafé">Vive Café: Un buen café de especialidad y un local acogedor para pasar el rato  </a></li>
-                    <li><a class="one" href="#CuervoCafe">Cuervo Café: el cielo lo tocas cuando tomas uno de sus cafés (sin exagerar)</a></li>
-                    <li><a class="one" href="#IspicaCafé">Ispica Café: otro cafecito de especialidad en Palermo pero de pastelería italiana</a></li>
-                    <li><a class="one" href="#OliCafé">Oli Café: el cielo donde se cocina la mejor comida y un delicioso café</a></li>
+                    <li><a class="one" href="./Palermo/LasFlores.html">Las Flores: te encontras en un espacio verde, un café y comida sin glúten!</a></li>
+                    <li><a class="one" href="./Palermo/VhsCafe.html">Vhs Café: un cafecito de especialidad dentro de un Videoclub para disfrutar de lo retro y comer cosas ricas</a></li>
+                    <li><a class="one" href="./Palermo/ViveCafe.html">Vive Café: Un buen café de especialidad y un local acogedor para pasar el rato  </a></li>
+                    <li><a class="one" href="./Palermo/CuervoCafe.html">Cuervo Café: el cielo lo tocas cuando tomas uno de sus cafés (sin exagerar)</a></li>
+                    <li><a class="one" href="./Palermo/IspicaCafe.html">Ispica Café: otro cafecito de especialidad en Palermo pero de pastelería italiana</a></li>
+                    <li><a class="one" href="./Palermo/OliCafe.html">Oli Café: el cielo donde se cocina la mejor comida y un delicioso café</a></li>
                 </ul>
             </p>
        </details>
      </div>
     <div class="cuadrado">
         <details>
-            <summary class="summary">Recoleta</summary>
+            <summary class="barrios">Recoleta</summary>
             <p>
                 <ul class="cursosBaristas">
-                    <li><a class="one" href="#PalacioDuhau">Palacio Duhau: lujos, comida y una vista 10 puntos</a></li>
-                    <li><a class="one" href="RondoCafe">Rondó Café: Uno de los mejores cafes en el barrio de Recoleta!</a></li>
-                    <li><a class="one" href="AlvearPalace">Alvear Palace: Gran experiencia para la hora del té</a></li>
-                    <li><a class="one" href="CroqueMadame">Corque Madame: Un jardín impresionante y un gran brunch frances que te acompaña</a></li>
-                    <li><a class="one" href="SashaPastales">Sasha Pasteles: Lugar para comer las mejores tortas, las mas dulces y bombas de todo CABA</a></li>
-                    <li><a class="one" href="LeBle">Le Blé: encontrado en la avenida callao proponiendonos una gran diversidad de comida francesa para compañar nuestro cafecito ;)</a></li>
+                    <li><a class="one" href="./Recoleta/PalacioDuhau.html">Palacio Duhau: lujos, comida y una vista 10 puntos</a></li>
+                    <li><a class="one" href="./Recoleta/RondoCafe.html">Rondó Café: Uno de los mejores cafes en el barrio de Recoleta!</a></li>
+                    <li><a class="one" href="./Recoleta/AlvearPalace.html">Alvear Palace: Gran experiencia para la hora del té</a></li>
+                    <li><a class="one" href="./Recoleta/CroqueMadame.html">Corque Madame: Un jardín impresionante y un gran brunch frances que te acompaña</a></li>
+                    <li><a class="one" href="./Recoleta/SashaPasteles.html">Sasha Pasteles: Lugar para comer las mejores tortas, las mas dulces y bombas de todo CABA</a></li>
+                    <li><a class="one" href="./Recoleta/LeBle.html">Le Blé: encontrado en la avenida callao proponiendonos una gran diversidad de comida francesa para compañar nuestro cafecito ;)</a></li>
          
                 </ul>
               </p>
@@ -49,17 +62,17 @@
     </div>
     <div class="cuadrado">
         <details>
-            <summary class="summary">Núñez</summary>
+            <summary class="barrios">Núñez</summary>
             <p>
                 <ul class="cursosBaristas">
-                   <li><a class="one"href="AdoradoCafe">Adorado Café</a></li>
-                   <li><a class="one" href="LegadoCafe">Legado Café</a></li>
-                   <li><a class="one" href="ZukaCafe">Zuka Café</a></li>
-                   <li><a class="one" href="CittaCafe">Città Café</a></li>
-                   <li><a class="one" href="CuadraMadre">Cuadra Madre: Pasteleria de masa madre y café de especialidad</a></li>
-                   <li><a class="one" href="LaKitchen"> La Kitchen: gran luagr de pasteleria y de café para acompañar</a></li>
-                   <li><a class="one" href="OsaNegra">Osa Negra: local bellisimo para tomarse un cafecito y comer comida gluten free!</a></li>
-                   <li><a class="one" href="ForetBsAs"> Foret: ademas de un gran café, tiene un salon interno divino y dos decks al aire libre</a></li>
+                   <li><a class="one" href="./Nuñez/AdoradoCafe.html">Adorado Café</a></li>
+                   <li><a class="one" href="./Nuñez/LegadoCafe.html">Legado Café</a></li>
+                   <li><a class="one" href="./Nuñez/ZukaCafe.html">Zuka Café</a></li>
+                   <li><a class="one" href="./Nuñez/CittaCafe.html">Città Café</a></li>
+                   <li><a class="one" href="./Nuñez/CuadraMadre.html">Cuadra Madre: Pasteleria de masa madre y café de especialidad</a></li>
+                   <li><a class="one" href="./Nuñez/LaKitchen.html"> La Kitchen: gran luagr de pasteleria y de café para acompañar</a></li>
+                   <li><a class="one" href="./Nuñez/OsaNegra.html">Osa Negra: local bellisimo para tomarse un cafecito y comer comida gluten free!</a></li>
+                   <li><a class="one" href="./Nuñez/Foret.html"> Foret: ademas de un gran café, tiene un salon interno divino y dos decks al aire libre</a></li>
 
                 </ul>
             </p>
@@ -67,29 +80,29 @@
     </div>
     <div class="cuadrado">
        <details>
-            <summary class="summary">Belgrano</summary>
+            <summary class="barrios">Belgrano</summary>
             <p>
                 <ul class="cursosBaristas">
-                    <li><a class="one" href="BalthaDeliCafe">Baltha Deli Café: café de especialidad y una propuesta gourmet para acompañar</a></li>
-                    <li><a class="one" href="BigRabbit">Big Rabbit: un gran lugar para ir a tomar un café cerca del Barrio Chino</a></li>
-                    <li><a class="one" href="Piani">Piani: gran café de escpecialidad y la mejor torta sablée de almendras</a></li>
-                    <li><a class="one" href="BeeCoffe">Bee Coffee: café de especialidad, opciones sin tacc, veggies y con carne pero ademas gran lugar para hacer home office!</a></li>
-                    <li><a class="one" href="DulceBA">Dulce BA: lindísima terraza para acompañar un buen brunch</a></li>
-                    <li><a class="one" href="CofiJaus">Cofi Jaus: una propuesta zarpada cerca del Barrio Chino</a></li>
+                    <li><a class="one" href="./Belgrano/BalthaDeli.html">Baltha Deli Café: café de especialidad y una propuesta gourmet para acompañar</a></li>
+                    <li><a class="one" href="./Belgrano/BigRabbit.html">Big Rabbit: un gran lugar para ir a tomar un café cerca del Barrio Chino</a></li>
+                    <li><a class="one" href="./Belgrano/Piani.html">Piani: gran café de escpecialidad y la mejor torta sablée de almendras</a></li>
+                    <li><a class="one" href="./Belgrano/BeeCoffee.html">Bee Coffee: café de especialidad, opciones sin tacc, veggies y con carne pero ademas gran lugar para hacer home office!</a></li>
+                    <li><a class="one" href="./Belgrano/DulceBa.html">Dulce BA: lindísima terraza para acompañar un buen brunch</a></li>
+                    <li><a class="one" href="./Belgrano/CofiJaus.html">Cofi Jaus: una propuesta zarpada cerca del Barrio Chino</a></li>
                 </ul>
             </p>
        </details>
        </div>
        <div class="cuadrado">
         <details>
-             <summary class="summary">Caballito</summary>
+             <summary class="barrios">Caballito</summary>
              <p>
                  <ul class="cursosBaristas">
-                     <li><a class="one" href="BarraganCafé">Barragan Café: Cocina mexicana y café de especialidad fusionado en un mismo lugar</a></li>
-                     <li><a class="one" href="Polvorin">Polvorin: La esquina celeste mas linda del mundo </a></li>
-                     <li><a class="one" href="Molina">Molina: Saben que a un buen cafecito no se le puede decir que no...</a></li>
-                     <li><a class="one" href="IamBarista">I am Barista: Mas que cafe es un arte. </a></li>
-                     <li><a class="one" href="FecaCafé">Feca Café: opciones veganas  y cafe de especialidad!</a></li>
+                     <li><a class="one" href="./Caballito/BarraganCafe.html">Barragan Café: Cocina mexicana y café de especialidad fusionado en un mismo lugar</a></li>
+                     <li><a class="one" href="./Caballito/Polvorin.html">Polvorin: La esquina celeste mas linda del mundo </a></li>
+                     <li><a class="one" href="./Caballito/Molina.html">Molina: Saben que a un buen cafecito no se le puede decir que no...</a></li>
+                     <li><a class="one" href="./Caballito/IamBarista.html">I am Barista: Mas que cafe es un arte. </a></li>
+                     <li><a class="one" href="./Caballito/FecaCafe.html">Feca Café: opciones veganas  y cafe de especialidad!</a></li>
                  </ul>
              </p>
         </details>
