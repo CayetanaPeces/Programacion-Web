@@ -1,6 +1,6 @@
 body {
-        background-color: #e6e4db ;
-        margin:20px;
+      margin:20px;
+      background-color: #f2f3e8;
        }
       .header{
          margin:0px;
@@ -13,12 +13,24 @@ body {
         font-size:50px;
         font-family: 'Maven Pro', sans-serif;
      }
+     .tabladeBarrios{
+         border-collapse: collapse;
+         align-items: center;
+         width: 100px;
+         height: 100px;
+         table-layout: auto;
+     }
+     .dataBarrios{
+      width: 100px;
+      height: 100px;
+     }
      .cuadrado {
        display: flex;
        width: auto;
        height: auto;
        background-color: rgb(248, 248, 245);
        border: 1px solid black;
+       margin: 40px;
      }
      .cursosBaristas{
         list-style-type: circle;
@@ -38,7 +50,7 @@ body {
      .text_table{
         text-align: justify;
         font-size: 20px;
-        margin: 20px;
+        padding: 10px;
         font-family: 'Maven Pro', sans-serif;
      }
      .image_table{
@@ -54,7 +66,6 @@ body {
         border-radius: 4px;
         box-sizing: border-box;
       }
-      
       .submit{
         width: 100%;
         background-color: #4CAF50;
@@ -73,7 +84,30 @@ body {
         margin:auto;
       }
       .h2{
+         font-size: 55px; /* Tamaño de fuente */
+         font-weight: bold; /* Grosor de fuente */
+         text-align: center; /* Alineación de texto */
+         color: #020202; /* Color de texto */
+         text-transform: uppercase; /* Transformar texto a mayúsculas */
+         margin-bottom: 20px; /* Margen inferior */
          font-family: 'Maven Pro', sans-serif;
+         text-shadow: 2px 2px 4px #3d3d3d
+      }
+      .h3{
+         font-family: 'Maven Pro', sans-serif;
+         font-size: 30px;
+      }
+      .p{
+         font-family: 'Maven Pro', sans-serif;
+         font-size: 20px;
+         text-align: center; 
+         border: 2px solid #ddd; 
+         padding: 10px 20px; 
+         border-radius: 20px; 
+         padding-left: 50px;
+         box-shadow: 0 0 5px #ccc, 0 0 10px #ccc, 0 0 15px #ccc, 0 0 20px #ccc, 0 0 25px #ccc;
+         background-color: rgb(248, 248, 239);
+         
       }
 
       
