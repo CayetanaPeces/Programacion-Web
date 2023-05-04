@@ -8,6 +8,8 @@ body{
     text-align: center;
     font-style: italic;
     background-color: rgb(253, 253, 253);
+    margin-left: 0px;
+    margin-right: 0px;
 }
 .one{
     padding:10px;
