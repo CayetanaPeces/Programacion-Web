@@ -17,6 +17,29 @@ body {
    align-content: center;
    flex-wrap: nowrap;
 }
+.menu{
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   display:flex;
+   background-color: #333;
+}
+.li_menu{
+   display: block;
+   float:left;
+   color: white;
+   padding: 14px 16px;
+   text-align: center;
+   text-decoration: none;
+   @media screen and (max-width: 600px) {
+      align-content:right;
+      float: none;
+   }
+}
+.li_menu:hover {
+   background-color: #111;
+}
 .tabladeBarrios{
    display: grid;
    grid-column-gap: 10px;
@@ -50,13 +73,17 @@ body {
    padding-left: 20px;
    box-shadow: 0 0 5px #ccc, 0 0 10px #ccc, 0 0 15px #ccc, 0 0 20px #ccc, 0 0 25px #ccc;
    background-color: rgb(248, 248, 239);
-
 }
 
 @media screen and (max-width: 600px) {
- .cuadrado{
+   .cuadrado{
    display: block;
-}}
+   }
+   .imagen_cuadrado{
+      display:block;
+      margin: 0 auto;
+   }
+}
 .cuadrado:hover{
    transform: scale(1.1);
 }
