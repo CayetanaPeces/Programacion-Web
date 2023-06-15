@@ -48,10 +48,6 @@ body {
    grid-template-columns: repeat(3, 1fr);
    grid-template-rows: repeat(2, 1fr);
    gap:10px;
-   @media only screen and (max-width: 600px) {
-      grid-template-columns: 1fr 1fr;
-      grid-template-rows: repeat(6, 1fr);
-   }
 }
 .imagen:hover{
    box-shadow: 0 4px 8px black
@@ -78,29 +74,87 @@ body {
 @media screen and (max-width: 600px) {
    .cuadrado{
    display: block;
+   background-color: rgb(248, 248, 245);
+   border: 2px solid #ddd; 
+   border-radius: 10px; 
+   padding-left: 20px;
+   box-shadow: 0 0 5px #ccc, 0 0 10px #ccc, 0 0 15px #ccc, 0 0 20px #ccc, 0 0 25px #ccc;
+   background-color: rgb(248, 248, 239);
    }
    .imagen_cuadrado{
       display:block;
       margin: 0 auto;
+      padding-right: 15%;
+      padding-left: 15%;
+      align-items: center;
+   }
+   .header{
+      font-size: 50px;
+   }
+   .h3{
+      font-size: 15px;
+   }
+   .tabladeBarrios{
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(6, 1fr);
+      padding: auto;
+   }
+   .imagen{
+     width: max-content; /*Revisar esto*/
+     height: max-content;
+   }
+   .carousel{
+      max-width: 70%;
+      height: auto;
+   }
+   .carousel img{
+      max-width: 200px; /* Establece un ancho máximo específico para dispositivos móviles */
+      height: auto;
    }
 }
 .cuadrado:hover{
    transform: scale(1.1);
 }
 .cursosBaristas{
-   list-style-type: circle;
-   font-family: 'Maven Pro', sans-serif;
-}
-.one:visited {color:#030303;}
-.one:hover {color:#928152;}
-.one{
    padding: 10px;
    list-style-type: circle;
    font-size: 25px;
-   margin: 10px 0;
+   margin: 0 0 0 50px;
    word-wrap: break-word;
    font-family: 'Maven Pro', sans-serif;
+   text-decoration: none;
 }
+.carousel{
+   display: flex;
+   overflow-x: auto;
+   scroll-snap-type: x mandatory;
+   width: 50%;
+   height: 20%;
+   margin:0 auto;
+   padding: 5%;
+}
+.carousel-item img{
+   scroll-snap-align: start;
+   width: 300px;
+   height: 300px;
+   display: block;
+   justify-content: center;
+   align-items: center;
+}
+.carousel-control-prev-icon {
+   background-color: #e7e6d9; /* Cambiar a tu color deseado */
+ }
+ .carousel-control-next-icon {
+   color: #020202;
+   background-color: #e7e6d9; /* Cambiar a tu color deseado */
+ }
+.visually-hidden{
+   color:#020202;
+}
+.one:link{color:#030303;}
+.one:visited {color:#030303;}
+.one:hover {color:#928152;}
+.one:active{color:#928152;}
 .form-group{
    width: 100%;
    padding: 12px 20px;
@@ -141,6 +195,7 @@ body {
 .h3{
    font-family: 'Maven Pro', sans-serif;
    font-size: 30px;
+   text-align: justify;
 }
 .p{
    font-family: 'Maven Pro', sans-serif;
