@@ -155,6 +155,10 @@ body {
 .one:visited {color:#030303;}
 .one:hover {color:#928152;}
 .one:active{color:#928152;}
+.one{
+   text-decoration: none;
+   text-align: justify;
+}
 .form-group{
    width: 100%;
    padding: 12px 20px;
